@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Registration Page</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+	<style type="text/css">
+		*{
+		font-family: Times New Roman,Verdana;
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font: poppins;
+}
+#main{
+	width: 100%;
+	height: 15vh;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: black;
+	background-color: #A1D2FB;
+	box-shadow: 5px,10px,10px,rgb(115,180,148);
+}
+.logo img{
+	height: 70px;
+}
+.menu{
+	list-style: none;
+	display: flex;
+}
+.menu li a{
+	height: 40px;
+	line-height: 43px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: black
+}
+.img{
+	width: 500px;
+	height: 500px;
+}
+.image img{
+	
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.content{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+.main-text{
+	width: 730px;
+}
+.main-text h1{
+	font-size: 3.5em;
+	color: #lc3548;
+	margin: 10px 10px 10px 10px;
+	line-height: 60px;
+}
+.main-text p{
+	color: black;
+	font-family:Verdana;
+	font-style: italic;
+}
+.menu li a:hover{
+	background-color: #23cdaf;
+	color: white;
+	box-shadow: 5px,10px,30px rgba(24,139,119,0.2);
+}
+	</style>
+</head>
+<body bgcolor="#A1D2FB">
+	<section id="main">
+		<nav>
+			<a href="#" class="logo">
+				<img src="logo.jpg" >
+			</a>
+
+			<span class="menuspace">
+				
+			</span>
+
+			<ul class="menu">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="card.html">Login</a></li>
+				<li><a href="Form.html">Sign Up</a></li>
+				<li><a href="timetable.html">TimeLine</a></li>
+				<li><a href="book.html">Book</a></li>
+				<li><a href="profile.html">Profile</a></li>
+			</ul>
+		</nav>
+	</section>
+	<h1 style="margin-left: 30px;padding: 0px; color: gray" >Trip Information</h1>
+	<hr>
+	<div class="row" style="padding-left: 20px;">
+    
+    <!-- Mahalaxmi Express -->
+    <div class="col-sm-3" style="background-color:lavender; padding: 40px;">
+    	<h3 ><b>Mahalaxmi Express</b></h3>
+    	<h5 style="color: gray">Time : 07:45:00</h4>
+    	<h5 style="color: gray">Date : 2018- 03-07</h4>
+    	<h5 style="color: gray">Coach No : 34</h4>
+
+		<h5 >Kolhapur - Pune</h4>
+		<h5 >Fare(Per seat): 500/-</h4>
+		<h5 >No. available seats : 36</h4>    	
+    </div>
+
+    <!-- Bus -->
+    <div class="col-sm-5" style="background-color:lavenderblush; ">
+    	
+    	<button type="button" class="btn btn-success" style="margin-left: 100px;margin-top: 35px; ">X</button>
+    	<button type="button" class="btn btn-danger" style="margin-left: 100px;margin-top: 35px;">Y</button>
+    	<button type="button" class="btn" style="margin-left: 100px;margin-top: 35px; background-color: gray; background-color: gray;">Z</button>
+
+    	<button type="button" class="btn" style="margin-left: 80px;margin-top: 10px"><b>Reserve</b></button>
+    	<button type="button" class="btn" style="margin-left: 58px;margin-top: 10px"><b>Selected</b></button>
+    	<button type="button" class="btn" style="margin-left: 56px;margin-top: 10px"><b>Empty</b></button>
+
+		 <button type="button" class="btn btn-success" style="margin-left: 100px;margin-top: 35px;">A1</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 35px; background-color: gray;">A2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 35px; background-color: gray;">A3</button> 
+		 <button type="button" class="btn btn-danger" style="margin-left: 25px;margin-top: 35px;">A4</button>
+
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">B1</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">B2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">B3</button> 
+		 <button type="button" class="btn btn-danger" style="margin-left: 25px;margin-top: 15px;">B4</button>
+
+
+		  
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">C1</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">C2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">C3</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">C4</button>
+
+
+		  
+		 <button type="button" class="btn btn-danger" style="margin-left: 100px;margin-top: 15px; ">D1</button> 
+		 <button type="button" class="btn" style="margin-left: 22px;margin-top: 15px; background-color: gray;">D2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">D3</button> 
+		 <button type="button" class="btn" style="margin-left: 22px;margin-top: 15px; background-color: gray;">D4</button>
+
+		 
+		  
+		 <button type="button" class="btn btn-danger" style="margin-left: 100px;margin-top: 15px;">E1</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">E2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">E3</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">E4</button>
+
+
+		  
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">F1</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">F2</button> 
+
+		 <button type="button" class="btn btn-success" style="margin-left: 100px;margin-top: 15px; ">F3</button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">F4</button>
+
+
+		  
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">G1</button> 
+		 <button type="button" class="btn btn-success" style="margin-left: 20px;margin-top: 15px; ">G2</button>
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">G3</button> 
+		 <button type="button" class="btn" style="margin-left: 20px;margin-top: 15px; background-color: gray;">G4</button>
+
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">H1</button> 
+		 <button type="button" class="btn btn-danger" style="margin-left: 20px;margin-top: 15px; ">H2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">H3</button> 
+		 <button type="button" class="btn" style="margin-left: 20px;margin-top: 15px; background-color: gray;">H4</button>
+
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">I1</button> 
+		 <button type="button" class="btn btn-success" style="margin-left: 25px;margin-top: 15px; ">I 2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">I 3 </button> 
+		 <button type="button" class="btn" style="margin-left: 25px;margin-top: 15px; background-color: gray;">I4</button>
+		 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">J1</button> 
+		 <button type="button" class="btn btn-success" style="margin-left: 25px;margin-top: 15px; ">J2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">J3</button> 
+		 <button type="button" class="btn" style="margin-left: 28px;margin-top: 15px; background-color: gray;">J4</button>
+
+
+		 <button type="button" class="btn" style="margin-left: 100px;margin-top: 15px; background-color: gray;">K1</button> 
+		 <button type="button" class="btn btn-danger" style="margin-left: 20px;margin-top: 15px; ">K2</button> 
+
+		 <button type="button" class="btn" style="margin-left: 92px;margin-top: 15px; background-color: gray;">K3</button> 
+		 <button type="button" class="btn" style="margin-left: 22px;margin-top: 15px; background-color: gray;">K4</button>
+    </div>
+
+    <!-- Confirm -->
+    <div class="col-sm-4" style="background-color:lavender;">
+    	
+    	 <div class="table-responsive">          
+  	<table class="table table-striped table-bordered" style="margin-top: 30px; ">
+    <thead>
+      <tr>
+        <th>Seat No</th>
+        <th>Count</th>
+        <th>Fare</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A1</td>
+        <td>1</td>
+        <td>800/-</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 130px; margin-left: 10px;font-size: 20px;">Choose Boarding Point :</p>
+  
+  <select name="cars" id="cars" style="padding-left: 19px;padding-right: 20px; padding-top: 10px;
+  padding-bottom: 10px; justify-content: center; margin-left : 10px; border: 1px solid gray;" >
+    <option value="volvo">-- Kolhapur --</option>
+    <option value="saab">-- Karad --</option>
+    <option value="audi">-- Sangli --</option>
+    <option value="opel">-- Satara --</option>
+ 
+  </select>
+  <br>
+  <button type="button" class="btn btn-success" style="margin-left: 15px;margin-top: 35px; ">Book Seat</button>
+  </div>
+    </div>
+  </div>
+</body>
+</html>
